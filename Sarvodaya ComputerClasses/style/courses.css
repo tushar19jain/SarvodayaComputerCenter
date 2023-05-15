@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+main h1{
+    text-align: center;
+    ;
+}
+main img{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main h3{
+    margin: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+#diplomaTable{
+    margin-left: 500px;
+    margin-right: 500px;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+-moz-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+}
+#diplomaTable a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #484040;
+}
+#diplomaTable li{
+    list-style: none;
+    text-align: center;
+    padding: 12px 14px;
+}
+#certificationCoursesDetail{
+    margin-left: 500px;
+    margin-right: 500px;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+-moz-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+}
+#certificationCoursesDetail a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #484040;
+}
+#certificationCoursesDetail li{
+    list-style: none;
+    text-align: center;
+    padding: 12px 14px;
+}
+#nieliteCoursesDetail{
+    margin-left: 500px;
+    margin-right: 500px;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+-moz-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+}
+#nieliteCoursesDetail a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #484040;
+}
+#nieliteCoursesDetail li{
+    list-style: none;
+    text-align: center;
+    padding: 12px 14px;
+}
+@media screen and (max-width:475px) {
+    main img{
+        height: 200px; 
+    }
+    main h1{
+        margin-top: 30px;
+    }
+    main h3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #diplomaTable{
+        margin-left: 15px;
+        margin-right: 15px;
+        display: none;
+        background-color: #ffffff;
+        border-radius: 10px;
+        -webkit-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    -moz-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    }
+    #certificationCoursesDetail{
+        margin-left: 15px;
+        margin-right: 15px;
+        display: none;
+        background-color: #ffffff;
+        border-radius: 10px;
+        -webkit-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    -moz-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    }
+    #nieliteCoursesDetail{
+        margin-left: 15px;
+        margin-right: 15px;
+        display: none;
+        background-color: #ffffff;
+        border-radius: 10px;
+        -webkit-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    -moz-box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    box-shadow: -1px 5px 8px 0px rgba(117,113,117,1);
+    }
+}
